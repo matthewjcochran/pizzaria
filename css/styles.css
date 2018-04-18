@@ -1,0 +1,69 @@
+body {
+  max-width: 500px;
+  margin: auto;
+  padding-left:  10px;
+  padding-right: 10px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+
+h1 {font-size: 36pt;}
+h2 {font-size: 32pt;}
+h3 {font-size: 24pt;}
+p  {font-size: 20pt;}
+
+nav > li > a  {
+  font-size: 20pt;
+  text-decoration: none; 
+  color: #F44;
+}
+
+nav > li > a:hover  {
+  color: white; 
+  background: #F44;
+}
+
+nav > li {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  word-spacing: 1em;
+}
+
+#credit, #copyright {font-size: 12pt;}
+
+
+img {
+  width: 100%
+}
+
+#menu {
+  background-color: lightgoldenrodyellow;
+  padding: 1em;
+}
+
+.pizzaName {
+  text-decoration: underline;
+}
+
+#name {
+  border: #F44;
+  border-top-style: double;
+}
+
+#tagline {
+  border: #f44;
+  border-bottom-style: double;
+}
+
+#topMenu {
+  border: #F44;
+  border-top-style: double;
+  border-bottom-style: double;
+}
