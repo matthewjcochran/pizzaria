@@ -14,19 +14,49 @@ font-family: 'Merriweather', serif;
 p {
   font-family: 'Merriweather Sans', sans-serif;
 }
+
+
 h1 {
+  font-size: 26pt;
   text-transform: uppercase;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  background-color: red;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+h2 {
+  font-size: 18pt;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px black;
+  color: red;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+li {
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 nav > li > a  {
-  font-size: 20pt;
   text-decoration: none; 
-  color: #F44;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 nav > li > a:hover  {
   color: white; 
-  background: #F44;
+  background: red;
 }
 
 nav > li {
@@ -55,17 +85,13 @@ img {
 }
 
 #name {
-  border: #F44;
+  border: red;
   border-top-style: double;
 }
 
-#tagline {
-  border: #f44;
-  border-bottom-style: double;
-}
 
 #topMenu {
-  border: #F44;
+  border: red;
   border-top-style: double;
   border-bottom-style: double;
 }
